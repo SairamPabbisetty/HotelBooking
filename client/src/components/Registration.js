@@ -32,7 +32,7 @@ const Registration = () => {
                             <div className="card-body">
                                 <h2 className="text-center mb-4">Registration</h2>
                                 <form 
-                                    action="http://localhost:3001/api/users/register/" 
+                                    action="hotel-booking-api-pi.vercel.app/api/users/register/" 
                                     method="POST"
                                     className="shadow-sm p-3 bg-light rounded"
                                 >

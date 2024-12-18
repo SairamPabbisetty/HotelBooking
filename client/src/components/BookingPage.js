@@ -26,7 +26,7 @@ const BookingPage = () => {
             <div className="container mt-5">
                 <h2 className="text-center mb-4">Book a Room</h2>
                 <form 
-                    action="http://localhost:3001/api/bookings/" 
+                    action="hotel-booking-api-pi.vercel.app/api/bookings/" 
                     method="POST" 
                     className="shadow-lg p-4 rounded bg-light"
                 >
