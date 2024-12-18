@@ -6,7 +6,7 @@ const BookingHistory = () => {
     const [bookings, setBookings] = useState([]);
     
     useEffect(() => {
-        fetch('http://localhost:3001/api/bookings')
+        fetch('hotel-booking-api-pi.vercel.app/api/bookings')
             .then((response) => response.json()) 
             .then((data) => {
                 console.log(data); 
