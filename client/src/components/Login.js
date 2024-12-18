@@ -26,7 +26,7 @@ const LoginPage = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        const response = await fetch('http://localhost:3001/api/users/login', {
+        const response = await fetch('hotel-booking-api-pi.vercel.app/api/users/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
